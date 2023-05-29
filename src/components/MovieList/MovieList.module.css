@@ -1,0 +1,28 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: -20px;
+    margin-top: -20px;
+    padding: 20px 0;
+}
+  
+.item {
+    flex-basis: calc(100% / 4 - 20px);
+    margin-left: 20px;
+    margin-top: 20px;
+  
+    opacity: 1;
+  
+    transition: opacity 250ms linear;
+}
+.item:hover {
+      color: grey;
+  
+      opacity: 0.8;
+  
+      transition: all 250ms linear;
+}
+.link {
+    text-decoration: none;
+}
